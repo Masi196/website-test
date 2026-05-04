@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>King Burger</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff4df;
+      color: #3b1f0f;
+    }
+
+    header {
+      background: #d62300;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #ffcc00;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 15px;
+      color: #3b1f0f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background: #d62300;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      width: 250px;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 12px #0002;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    footer {
+      background: #3b1f0f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>King Burger</h1>
+    <p>Flame-grilled taste, made fresh</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Deals</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Big Burgers. Bigger Flavor.</h1>
+    <p>Try our fresh burgers, crispy fries, and cold drinks.</p>
+    <a class="btn" href="#">Order Now</a>
+  </section>
+
+  <section class="menu">
+    <div class="card">
+      <h2>Classic Burger</h2>
+      <p>Beef patty, cheese, lettuce, tomato, and sauce.</p>
+      <h3>$6.99</h3>
+    </div>
+
+    <div class="card">
+      <h2>Chicken Sandwich</h2>
+      <p>Crispy chicken, pickles, mayo, and soft bun.</p>
+      <h3>$5.99</h3>
+    </div>
+
+    <div class="card">
+      <h2>Combo Meal</h2>
+      <p>Burger, fries, and drink together.</p>
+      <h3>$9.99</h3>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 King Burger. Demo website only.</p>
+  </footer>
+
+</body>
+</html>
